@@ -1,0 +1,284 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.communer">
+
+    <application
+        android:name=".Application.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+
+        <activity
+            android:name=".Activities.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activities.TabsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Activities.LoginUserDetails"
+            android:parentActivityName=".Activities.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.EventActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.GalleryGridActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.QuestionsNAnswers"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.PhotoViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.CategoryWorkersActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.WorkerPage"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.CategoryWorkersActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.AskQuestionActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.QuestionsNAnswers"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".Activities.Facilities"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.Security"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.NewReport"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.Security"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.CommunityConversation"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.PrefixActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SearchCommunity"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible"/>
+        <activity
+            android:name=".Activities.SearchCommunityMenu"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateVisible" />
+        <activity
+            android:name=".Activities.FacilityPage"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.CategoryWorkersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.MyProfile"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.CommunityProfile"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.MembersActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.CommunityProfile"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.NewPost"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Activities.CommunityConversation"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.PrayersTime"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.SecurityReportPage"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Activities.Security"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.MonthlyCalendarActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Activities.TabsActivity"
+            android:name=".Activities.Support"
+            android:label="@string/title_activity_support"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+
+        <activity android:name="com.pushwoosh.richpages.RichPageActivity" />
+        <activity android:name="com.pushwoosh.MessageActivity" />
+        <activity android:name="com.pushwoosh.PushHandlerActivity" />
+        <activity android:name="com.mixpanel.android.surveys.SurveyActivity" />
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.communer" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.pushwoosh.GCMListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.pushwoosh.GCMInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.pushwoosh.GCMRegistrationService"
+            android:exported="false">
+        </service>
+
+        ///Debug google key
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD-Ic4ROPZ7zKx5zdkJ7jk17SbXlVsR-28" />
+
+<!--        ///Release google key
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBYQmkk7OoSXXwZ-DR5-jzGXpNlw1fXWZg" />-->
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2dcd908efda9820dca7affe40945b24f8ec74a17" />
+
+        <!-- PushWoosh metadata -->
+        <meta-data android:name="PW_APPID" android:value="F74B0-9B38F" />
+        <meta-data android:name="PW_PROJECT_ID" android:value="A490413898261" />
+
+    </application>
+
+    <!-- Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Google API -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Calendar -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--GCM-->
+    <!-- Permission to get DeviceId -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <permission
+        android:name="com.communer.permission.C2D_MESSAGE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.communer.permission.C2D_MESSAGE"/>
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+
+    <!-- Notification Badge -->
+    <!--for Samsung-->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <!--for htc-->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <!--for sony-->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <!--for apex-->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <!--for solid-->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+
+</manifest>

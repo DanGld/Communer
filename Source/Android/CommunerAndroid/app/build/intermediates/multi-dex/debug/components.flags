@@ -1,0 +1,191 @@
+-injars 'C:\Users\Yuval\AndroidStudioProjects\CommunerAndroid\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\Yuval\AndroidStudioProjects\CommunerAndroid\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\Yuval\AppData\Local\Android\sdk\build-tools\23.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontwarn
+-printconfiguration 'C:\Users\Yuval\AndroidStudioProjects\CommunerAndroid\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.communer.Application.AppController {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.communer.Activities.MainActivity {
+    <init>();
+}
+
+-keep class com.communer.Activities.TabsActivity {
+    <init>();
+}
+
+-keep class com.communer.Activities.LoginUserDetails {
+    <init>();
+}
+
+-keep class com.communer.Activities.EventActivity {
+    <init>();
+}
+
+-keep class com.communer.Activities.GalleryGridActivity {
+    <init>();
+}
+
+-keep class com.communer.Activities.QuestionsNAnswers {
+    <init>();
+}
+
+-keep class com.communer.Activities.PhotoViewActivity {
+    <init>();
+}
+
+-keep class com.communer.Activities.CategoryWorkersActivity {
+    <init>();
+}
+
+-keep class com.communer.Activities.WorkerPage {
+    <init>();
+}
+
+-keep class com.communer.Activities.AskQuestionActivity {
+    <init>();
+}
+
+-keep class com.communer.Activities.Facilities {
+    <init>();
+}
+
+-keep class com.communer.Activities.Security {
+    <init>();
+}
+
+-keep class com.communer.Activities.NewReport {
+    <init>();
+}
+
+-keep class com.communer.Activities.CommunityConversation {
+    <init>();
+}
+
+-keep class com.communer.Activities.PrefixActivity {
+    <init>();
+}
+
+-keep class com.communer.Activities.SearchCommunity {
+    <init>();
+}
+
+-keep class com.communer.Activities.SearchCommunityMenu {
+    <init>();
+}
+
+-keep class com.communer.Activities.FacilityPage {
+    <init>();
+}
+
+-keep class com.communer.Activities.MyProfile {
+    <init>();
+}
+
+-keep class com.communer.Activities.CommunityProfile {
+    <init>();
+}
+
+-keep class com.communer.Activities.MembersActivity {
+    <init>();
+}
+
+-keep class com.communer.Activities.NewPost {
+    <init>();
+}
+
+-keep class com.communer.Activities.PrayersTime {
+    <init>();
+}
+
+-keep class com.communer.Activities.SecurityReportPage {
+    <init>();
+}
+
+-keep class com.communer.Activities.MonthlyCalendarActivity {
+    <init>();
+}
+
+-keep class com.communer.Activities.Support {
+    <init>();
+}
+
+-keep class com.facebook.FacebookActivity {
+    <init>();
+}
+
+-keep class com.soundcloud.android.crop.CropImageActivity {
+    <init>();
+}
+
+-keep class com.pushwoosh.richpages.RichPageActivity {
+    <init>();
+}
+
+-keep class com.pushwoosh.MessageActivity {
+    <init>();
+}
+
+-keep class com.pushwoosh.PushHandlerActivity {
+    <init>();
+}
+
+-keep class com.mixpanel.android.surveys.SurveyActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.gcm.GcmReceiver {
+    <init>();
+}
+
+-keep class com.pushwoosh.GCMListenerService {
+    <init>();
+}
+
+-keep class com.pushwoosh.GCMInstanceIDListenerService {
+    <init>();
+}
+
+-keep class com.pushwoosh.GCMRegistrationService {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

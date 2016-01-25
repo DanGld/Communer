@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DarkPrimaryColor">#0288d1</color>
+    <color name="PrimaryColor">#03a9f4</color>
+    <color name="LightPrimaryColor">#b3e5fc</color>
+    <color name="IconsColor">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="AceentColor">#8bc34a</color>
+    <color name="PrimaryText">#212121</color>
+    <color name="SecondaryText">#727272</color>
+    <color name="DividerColor">#b6b6b6</color>
+    <color name="AppOrange">#f67d24</color>
+    <color name="HeaderOrange">#ffa665</color>
+    <color name="BlackTransparent">#33000000</color>
+
+    <color name="Gray">#33d3d3d3</color>
+    <color name="LightGray">#d3d3d3</color>
+    <color name="BlueDot">#4A6FC7</color>
+
+    <color name="progress_blue">#FF03A9F4</color>
+    <color name="progress_red">#FFD8433C</color>
+    <color name="progress_yellow">#FFF2AF3A</color>
+    <color name="progress_green">#FF279B5E</color>
+
+    <color name="app_green">#8bc34a</color>
+
+    <color name="translucent_scrim_top">#59000000</color>
+    <color name="translucent_scrim_top_center">#33000000</color>
+</resources>

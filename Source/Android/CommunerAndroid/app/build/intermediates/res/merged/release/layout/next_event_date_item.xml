@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/date_item_container">
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white"
+        android:id="@+id/date_item_sub_container">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sun"
+            android:textSize="15sp"
+            android:id="@+id/date_item_daytext"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="@color/SecondaryText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/date_item_daynum"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/SecondaryText"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:src="@drawable/orange_dot"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:id="@+id/event_orange_dot"
+                android:layout_margin="2dp"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:src="@drawable/blue_dot"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:id="@+id/event_blue_dot"
+                android:layout_margin="2dp"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:src="@drawable/green_dot"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:id="@+id/event_green_dot"
+                android:layout_margin="2dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

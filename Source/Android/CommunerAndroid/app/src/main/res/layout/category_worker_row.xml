@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/category_worker_row_container"
+        android:transitionName="guide_worker_container_transition"
+        android:background="@color/white">
+
+        <ImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/worker_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:transitionName="guide_profile_transition"
+            android:src="@drawable/profile_sample"
+            android:layout_margin="16dp"/>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Haim Firestone"
+                android:id="@+id/worker_name"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/PrimaryText"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:transitionName="guide_name_transition"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New York City"
+                android:id="@+id/worker_location"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/PrimaryText"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:maxLines="2"
+                android:transitionName="guide_location_transition"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="7dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+972 54 6337845"
+                android:id="@+id/worker_phone"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/AppOrange"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:transitionName="guide_phone_transition"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.4"
+                android:id="@+id/worker_rating"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/AppOrange"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

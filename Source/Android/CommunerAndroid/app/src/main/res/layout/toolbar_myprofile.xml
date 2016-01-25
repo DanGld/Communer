@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="#03a9f4"
+    android:theme="@style/AppTheme">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:background="@null"
+        android:id="@+id/myprofile_save_btn"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myprofile_send_pb"
+        android:visibility="gone"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"/>
+
+</android.support.v7.widget.Toolbar>

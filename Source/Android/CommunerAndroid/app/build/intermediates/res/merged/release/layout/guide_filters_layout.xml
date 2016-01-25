@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/search_filters_container"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <com.rey.material.widget.Spinner
+                android:id="@+id/search_filters_category"
+                style="@style/Material.Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                app:spn_label="Category"
+                app:spn_labelTextColor="@color/DividerColor"
+                app:spn_labelEnable="true"/>
+
+            <com.rey.material.widget.Spinner
+                android:id="@+id/search_filters_location"
+                style="@style/Material.Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                app:spn_label="Location"
+                app:spn_labelTextColor="@color/DividerColor"
+                app:spn_labelEnable="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <com.rey.material.widget.Spinner
+                android:id="@+id/search_filters_price"
+                style="@style/Material.Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                app:spn_label="Price"
+                app:spn_labelTextColor="@color/DividerColor"
+                app:spn_labelEnable="true"/>
+
+            <com.rey.material.widget.Spinner
+                android:id="@+id/search_filters_rate"
+                style="@style/Material.Widget.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                app:spn_label="Rate"
+                app:spn_labelTextColor="@color/DividerColor"
+                app:spn_labelEnable="true"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="@color/white"
+            android:background="@color/AppOrange"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>

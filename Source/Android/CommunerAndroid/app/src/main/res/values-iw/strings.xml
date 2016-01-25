@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Communer</string>
+    <string name="drawer_open">SmartCommunityAndroid</string>
+    <string name="drawer_close">SmartCommunityAndroid</string>
+    <string name="shaharit_prayer">שחרית</string>
+    <string name="mincha_prayer">מנחה</string>
+    <string name="evening_prayer">ערבית</string>
+    <string name="facebook_app_id">811575782296409</string>
+    <string name="attending_dialog">Are you attending to the event?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="fontFamily__roboto_regular">sans-serif</string>
+    <string name="fontFamily__roboto_light">sans-serif-light</string>
+    <string name="fontFamily__roboto_condensed">sans-serif-condensed</string>
+    <string name="fontFamily__roboto_thin">sans-serif-thin</string>
+    <string name="fontFamily__roboto_medium">sans-serif-medium</string>
+    <string name="fontFamily__roboto_black">sans-serif-black</string>
+    <string name="fontFamily__roboto_condensed_light">sans-serif-condensed-light</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="MyProfile">My Profile</string>
+    <string name="title_activity_support">Support</string>
+    <string name="support_more_info">For more information you can access our website</string>
+    <string name="support_website">Website</string>
+    <string name="fake_website"><a>www.smartcom.com/support</a></string>
+    <string name="support_send_a_message_label">Or to send us a message</string>
+    <string name="topic">Topic</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="month">Month</string>
+    <string name="calendar_dialog_title">Show only:</string>
+
+    <!-- Activities titles -->
+    <string name="home_title">בית</string>
+    <string name="calendar_title">לוח שנה</string>
+    <string name="messages_title">הודעות</string>
+    <string name="gallery_title">גלריות</string>
+    <string name="explore_title">קטגוריות</string>
+
+    <string name="sign_up_title">הרשמה</string>
+    <string name="security_title">אבטחה</string>
+    <string name="search_community_title">חיפוש קהילות</string>
+    <string name="find_community_title">מצא קהילה</string>
+    <string name="members_title"> חברי קהילה</string>
+    <string name="participants_title">משתתפים</string>
+    <string name="conversations_title">דיון קהילתי</string>
+
+    <string name="create_post_title">דיון חדש</string>
+    <string name="community_profile_title">פרופיל קהילה</string>
+    <string name="questions_answers_title">שאלות ותשובות</string>
+    <string name="facilities_title">שירותי קהילה</string>
+
+    <string name="prayers_time_title">זמני תפילות</string>
+    <string name="new_report_title">התראה חדשה</string>
+    <string name="my_profile_title">הפרופיל שלי</string>
+    <string name="support_title">תמיכה</string>
+    <string name="category_search_title">תוצאות חיפוש</string>
+    <string name="category_worker_title">עמוד בעל מקצוע</string>
+
+    <string name="report_page_title">דיווח</string>
+    <string name="monthly_events_title">אירועים</string>
+
+    <!--- Home Widgets Titles -->
+    <string name="widget_next_services">התפילות הבאות</string>
+    <string name="widget_recent_news">חדשות והודעות אחרונות</string>
+    <string name="widget_next_events">אירועים קרובים</string>
+    <string name="widget_gallery">תמונות שהועלו לאחרונה</string>
+    <string name="widget_security">דיווחי ביטחון</string>
+    <string name="widget_questions">שאלות ותשובות</string>
+    <string name="widget_conversations">דיון קהילתי</string>
+
+</resources>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorContainer"
+    android:background="@color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_classic"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:id="@+id/event_page_top_cntnr">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="April 8, 2015"
+                    android:textSize="15sp"
+                    android:id="@+id/event_page_date"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Nursery School Purim Party"
+                    android:id="@+id/event_page_title"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09:30 - 11:00"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/event_page_hours"/>
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/share_fab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:src="@drawable/ic_share"
+                        app:elevation="10dp"
+                        app:backgroundTint="@color/AppOrange"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        app:fabSize="mini" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/DividerColor"
+                android:layout_marginTop="10dp"
+                android:id="@+id/event_page_divider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:layout_width="180dp"
+                            android:layout_height="50dp"
+                            android:scaleType="fitXY"
+                            android:background="?attr/selectableItemBackground"
+                            android:src="@drawable/add_to_calendar_button"
+                            android:id="@+id/calendar_btn"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:layout_width="180dp"
+                            android:layout_height="50dp"
+                            android:scaleType="fitXY"
+                            android:background="?attr/selectableItemBackground"
+                            android:src="@drawable/attending_button"
+                            android:id="@+id/attending_btn"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="BUY A TICKET"
+                    android:textColor="@color/white"
+                    android:id="@+id/event_page_buy_ticket_btn"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+            <fragment
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:background="@color/LightGray"
+                android:fontFamily="sans-serif"
+                android:textSize="13sp"
+                android:id="@+id/event_page_loc_text"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:maxWidth="200dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Participants"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/SecondaryText"
+                android:layout_margin="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/event_page_participans_main_cntnr">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/event_page_participans_cntnr">
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="5dp"
+                    android:background="@null"
+                    android:src="@drawable/three_dots"
+                    android:id="@+id/three_dots_load_mmbrs"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

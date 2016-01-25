@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="3"
+        android:id="@+id/announcement_first_item_cntnr">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feldenkrais"
+                android:id="@+id/annoucement_first_title"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jul 09 at 10:00"
+                android:id="@+id/announcement_first_time"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Many people feel renewed health and sensory awareness through Feldenkrais"
+                    android:id="@+id/annoucement_first_desc"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:id="@+id/annoucement_first_image"
+                android:src="@drawable/noprofilepic"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+    </LinearLayout>-->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/annoucement_first_image"
+            android:src="@drawable/noprofilepic"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feldenkrais"
+            android:id="@+id/annoucement_first_title"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="16sp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/annoucement_first_image"
+            android:layout_marginRight="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jul 09 at 10:00"
+            android:id="@+id/announcement_first_time"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/annoucement_first_title"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/annoucement_first_image"
+            android:layout_marginRight="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Many people feel renewed health and sensory awareness through Feldenkrais"
+            android:id="@+id/annoucement_first_desc"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/annoucement_first_image"
+            android:layout_below="@+id/announcement_first_time"
+            android:layout_marginRight="7dp"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\debug\\transition\\exit_fade_left_transition.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\transition\\exit_fade_left_transition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\debug\\transition\\guide_profile_transition.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\transition\\guide_profile_transition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\debug\\transition\\guide_name_transition.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\transition\\guide_name_transition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_fade.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\transition\\activity_fade.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_slide.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\transition\\activity_slide.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\debug\\transition\\guide_worker_container_transition.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\transition\\guide_worker_container_transition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\debug\\transition\\guide_phone_transition.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\transition\\guide_phone_transition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\debug\\transition\\guide_location_transition.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\transition\\guide_location_transition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\debug\\transition\\enter_right_fade_transition.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\transition\\enter_right_fade_transition.xml"
+    }
+]

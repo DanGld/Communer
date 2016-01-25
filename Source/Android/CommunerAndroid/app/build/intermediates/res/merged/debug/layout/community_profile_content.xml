@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/DividerColor" />
+
+        <TextView
+            android:id="@+id/community_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bnei Zion Manchester" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Members"
+            android:textColor="@color/DividerColor" />
+
+        <LinearLayout
+            android:id="@+id/community_profile_mmbrs_main_cntnr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/community_profile_mmbrs_cntnr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/thrre_dots_load_mmbrs"
+                android:layout_width="20dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/three_dots"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Location"
+        android:textColor="@color/DividerColor" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Details"
+        android:textColor="@color/DividerColor"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/com_profile_contact_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp" />
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/com_profile_incharge_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:maxLines="2"
+                android:text="Haim Firestone"
+                android:textColor="@color/PrimaryText" />
+
+            <TextView
+                android:id="@+id/com_profile_incharge_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:maxLines="2"
+                android:text="New York City"
+                android:textColor="@color/PrimaryText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|right"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+972 54 6337845"
+                android:id="@+id/com_profile_incharge_phone"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/AppOrange"/>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:id="@+id/com_profile_incharge_phone_btn"
+                android:src="@drawable/orange_phone"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fax"
+            android:textColor="@color/DividerColor" />
+
+        <TextView
+            android:id="@+id/community_profile_fax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+972 546337845"
+            android:textColor="@color/PrimaryText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Email"
+            android:textColor="@color/DividerColor" />
+
+        <TextView
+            android:id="@+id/community_profile_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yuval@moveo.co.il"
+            android:textColor="@color/PrimaryText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Website"
+            android:textColor="@color/DividerColor" />
+
+        <TextView
+            android:id="@+id/community_profile_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.communer.com"
+            android:textColor="@color/PrimaryText"
+            android:autoLink="web"
+            android:linksClickable="true"/>
+
+
+        <Button
+            android:id="@+id/community_apply_member"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="@color/app_green"
+            android:text="Apply as a member"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+
+        <ProgressBar
+            android:id="@+id/apply_as_member_pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/community_profile_leave"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="@color/progress_red"
+            android:text="Leave Community"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+
+        <ProgressBar
+            android:id="@+id/leave_community_pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

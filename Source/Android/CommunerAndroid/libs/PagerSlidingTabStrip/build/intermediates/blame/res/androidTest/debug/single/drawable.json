@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\libs\\PagerSlidingTabStrip\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_tab.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\libs\\PagerSlidingTabStrip\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\libs\\PagerSlidingTabStrip\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\tab_circle.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\libs\\PagerSlidingTabStrip\\build\\intermediates\\bundles\\debug\\res\\drawable\\tab_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\libs\\PagerSlidingTabStrip\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_action_calendar_icon.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\libs\\PagerSlidingTabStrip\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_action_calendar_icon.png"
+    }
+]

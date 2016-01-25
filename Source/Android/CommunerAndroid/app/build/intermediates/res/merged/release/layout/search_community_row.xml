@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/search_community_row_container"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/noprofilepic"
+            android:background="@null"
+            android:id="@+id/search_community_pic" />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="7dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="England Community"
+                android:layout_marginLeft="7dp"
+                android:textSize="18sp"
+                android:id="@+id/search_community_name"
+                android:fontFamily="sans-serif"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="England"
+                android:layout_marginLeft="7dp"
+                android:textSize="16sp"
+                android:textColor="@color/AppOrange"
+                android:id="@+id/search_community_location"
+                android:fontFamily="sans-serif"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Community\nCenter"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:id="@+id/search_community_definition"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

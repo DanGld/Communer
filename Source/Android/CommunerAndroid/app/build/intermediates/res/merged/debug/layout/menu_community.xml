@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/menu_community_profile_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/profile_sample"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/menu_community_profile_img">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bnei Zion"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18sp"
+                    android:id="@+id/menu_community_name"
+                    android:fontFamily="sans-serif"/>
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:textColor="#FFFFFF"
+                    android:text="5"
+                    android:textSize="9sp"
+                    android:gravity="center"
+                    android:background="@drawable/tab_circle"
+                    android:id="@+id/community_menu_unread_messages"
+                    android:layout_marginLeft="7dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bnei Zion"
+                android:layout_gravity="center_vertical"
+                android:textSize="18sp"
+                android:id="@+id/menu_community_location"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/AppOrange"
+                android:fontFamily="sans-serif"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

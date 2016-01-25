@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.smartcommunityandroid.Activities.Support"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/support_toolbar"
+        layout="@layout/toolbar_login"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <ScrollView
+        android:layout_below="@id/support_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:textColor="#f67d24"
+                android:id="@+id/more_info"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/support_more_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/website_label"
+                android:layout_margin="10dp"
+                android:text="@string/support_website"
+                android:layout_below="@+id/more_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:autoLink="web"
+                android:textColor="#000000"
+                android:id="@+id/website_url"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:layout_below="@+id/website_label"
+                android:text="www.communer.co"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="15dp"
+                android:textColor="#f67d24"
+                android:id="@+id/send_message_label"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_below="@+id/website_url"
+                android:text="@string/support_send_a_message_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.rey.material.widget.Spinner
+                android:layout_below="@+id/send_message_label"
+                android:id="@+id/topic_spinner"
+                style="@style/Material.Widget.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                app:spn_label="@string/topic"
+                app:spn_labelTextColor="@color/DividerColor"
+                app:spn_labelEnable="true"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_below="@+id/topic_spinner"
+                android:id="@+id/title_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/title"
+                    android:id="@+id/title_input"
+                    android:inputType="textCapSentences"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_below="@+id/title_container"
+                android:id="@+id/desc_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/description"
+                    android:id="@+id/description_input"
+                    android:inputType="textCapSentences"/>
+
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

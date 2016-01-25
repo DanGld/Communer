@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15:00"
+                android:textColor="@color/AppOrange"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-bold"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:id="@+id/prayer_time"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="זמן תפילין ושחרית המוקדם ביותר"
+                android:layout_margin="10dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="15sp"
+                android:id="@+id/prayer_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

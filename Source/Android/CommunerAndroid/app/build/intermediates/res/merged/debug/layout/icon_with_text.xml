@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/tab_image_cntnr">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_calendar_icon"
+            android:background="@null"
+            android:id="@+id/tab_layout_image"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:textColor="#FFFFFF"
+        android:text="55"
+        android:textSize="9sp"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:background="@drawable/tab_circle"
+        android:id="@+id/tab_layout_text"
+        android:layout_alignTop="@+id/tab_image_cntnr"
+        android:layout_alignRight="@+id/tab_image_cntnr"
+        android:layout_marginRight="-4dp"
+        android:layout_marginTop="-4dp"/>
+</RelativeLayout>

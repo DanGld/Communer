@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_classic"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/search_bar"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:hint="What country are you looking for?"
+        android:id="@+id/prefix_search_bar"
+        android:textSize="14sp"
+        android:inputType="textCapSentences"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/prefix_list">
+
+    </ListView>
+</LinearLayout>

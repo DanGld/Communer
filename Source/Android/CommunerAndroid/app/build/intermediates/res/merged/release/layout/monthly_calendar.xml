@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_classic"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mcv_showOtherDates="defaults"
+        app:mcv_selectionColor="@color/AceentColor"
+        app:mcv_tileSize="40dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="-40dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/monthly_down_arrow">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/down_arrow"
+            android:background="@null" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/DividerColor"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/monthly_calendar_events_list"
+            android:layout_marginTop="10dp"
+            android:divider="@null"
+            android:dividerHeight="0dp">
+
+        </ListView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No events/activities"
+            android:textSize="20sp"
+            android:textColor="@color/SecondaryText"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            android:id="@+id/monthly_calendar_no_events"/>
+    </LinearLayout>
+</LinearLayout>

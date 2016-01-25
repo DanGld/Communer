@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingRight="16dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:textColor="@color/AppOrange"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/worker_stars_bar"
+            android:layout_margin="10dp"
+            android:stepSize="0.5"
+            android:layout_gravity="center_horizontal"
+            style="@style/workerRatingBar" />
+
+<!--        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/SecondaryText"/>-->
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comment"
+                android:id="@+id/worker_comment_edittext"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+<!--        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/DividerColor"
+            android:layout_marginTop="10dp"/>-->
+
+    </LinearLayout>
+</LinearLayout>

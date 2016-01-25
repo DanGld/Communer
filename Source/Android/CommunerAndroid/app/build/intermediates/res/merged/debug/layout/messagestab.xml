@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/messages_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <android.support.v7.widget.RecyclerView
+        android:id="@+id/message_recycler"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>-->
+
+    <!--<ScrollView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="3dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal"
+                android:textSize="15sp"
+                android:background="@color/DividerColor"
+                android:id="@+id/messages_personal_header"
+                android:paddingLeft="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/personal_announ_container">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="General"
+                android:textSize="15sp"
+                android:background="@color/DividerColor"
+                android:id="@+id/messages_general_header"
+                android:paddingLeft="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/general_announ_container">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Occasions"
+                android:textSize="15sp"
+                android:background="@color/DividerColor"
+                android:id="@+id/messages_occasions_header"
+                android:paddingLeft="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/occasions_announ_container">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Events"
+                android:textSize="15sp"
+                android:background="@color/DividerColor"
+                android:id="@+id/messages_events_header"
+                android:paddingLeft="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/events_announ_container">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="3dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal"
+                android:textSize="15sp"
+                android:background="@color/DividerColor"
+                android:id="@+id/messages_personal_header"
+                android:paddingLeft="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/personal_announ_container">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="General"
+                android:textSize="15sp"
+                android:background="@color/DividerColor"
+                android:id="@+id/messages_general_header"
+                android:paddingLeft="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/general_announ_container">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Occasions"
+                android:textSize="15sp"
+                android:background="@color/DividerColor"
+                android:id="@+id/messages_occasions_header"
+                android:paddingLeft="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/occasions_announ_container">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Events"
+                android:textSize="15sp"
+                android:background="@color/DividerColor"
+                android:id="@+id/messages_events_header"
+                android:paddingLeft="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/events_announ_container">
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="#03a9f4"
+        android:theme="@style/AppTheme.Toolbar"
+        app:titleTextAppearance="@style/AppTheme.Toolbar.Title">
+
+        <com.rey.material.widget.ProgressView
+            android:id="@+id/toolbar_new_report_pb"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            app:pv_autostart="true"
+            app:pv_circular="true"
+            app:pv_progressMode="indeterminate"
+            app:pv_progressStyle="@style/Material.Drawable.CircularProgressWhite" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textColor="@color/DividerColor"
+                android:textSize="14sp"/>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/autoCompleteTextView"
+                android:hint="Please enter the location"
+                android:background="@color/white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp">
+                <requestFocus />
+            </AutoCompleteTextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Location"
+                android:textColor="@color/AppOrange"
+                android:textSize="12sp"
+                android:background="@null"
+                android:layout_gravity="right"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:id="@+id/new_report_change_loc"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Type of Report"
+                android:textColor="@color/DividerColor"
+                android:layout_marginTop="15dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/type_radio_group">
+
+                <RadioButton
+                    android:id="@+id/anti_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anti-Semitism"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/SecondaryText"
+                    android:paddingLeft="15dp"/>
+
+                <RadioButton
+                    android:id="@+id/suspicious_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suspicious Object"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/SecondaryText"
+                    android:paddingLeft="15dp"/>
+
+                <RadioButton
+                    android:id="@+id/event_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Report about event / demonstration"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/SecondaryText"
+                    android:paddingLeft="15dp"/>
+
+                <RadioButton
+                    android:id="@+id/attack_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attack"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/SecondaryText"
+                    android:paddingLeft="15dp"/>
+            </RadioGroup>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <EditText
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Description"
+                    android:id="@+id/new_report_description"
+                    android:inputType="textCapSentences" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The police have been reported"
+                android:textColor="@color/SecondaryText"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:id="@+id/police_reportted_cb"
+                android:layout_marginTop="15dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remain Anonymous"
+                android:textColor="@color/SecondaryText"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:id="@+id/annonymus_report"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="12sp"
+                android:textColor="@color/DividerColor"
+                android:text="Severity"
+                android:fontFamily="sans-serif"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/severity_radio_group">
+
+                <RadioButton
+                    android:id="@+id/severity_high"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="High"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#de4408"
+                    android:paddingLeft="15dp"/>
+
+                <RadioButton
+                    android:id="@+id/severity_medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#d1ca00"
+                    android:paddingLeft="15dp"/>
+
+                <RadioButton
+                    android:id="@+id/sseverity_high"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Low"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="15dp"
+                    android:textColor="#8bc34a"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

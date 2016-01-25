@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="attending_values">
+        <item>Yes</item>
+        <item>Maybe</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="filters_values">
+        <item>Prayers</item>
+        <item>Activities</item>
+        <item>Events</item>
+    </string-array>
+</resources>

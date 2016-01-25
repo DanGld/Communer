@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="#03a9f4"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/main_toolbar_title"
+            android:fontFamily="sans-serif-medium"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:id="@+id/toolbar_community_pic"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/white"
+                android:text="Bnei Zion"
+                android:id="@+id/toolbar_community_name"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Manchester"
+                android:textColor="@color/HeaderOrange"
+                android:id="@+id/toolbar_community_city"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:weightSum="3"
+        android:id="@+id/announcement_first_item_cntnr">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feldenkrais"
+                android:id="@+id/annoucement_first_title"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jul 09 at 10:00"
+                android:id="@+id/announcement_first_time"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Many people feel renewed health and sensory awareness through Feldenkrais"
+                    android:id="@+id/annoucement_first_desc"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="15sp"
+                    android:ellipsize="end"
+                    android:maxLines="3" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/annoucement_first_image"
+                android:src="@drawable/noprofilepic"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:background="@color/DividerColor"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

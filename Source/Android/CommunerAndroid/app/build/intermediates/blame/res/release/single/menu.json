@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_my_profile.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\menu\\menu_my_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\menu\\toolbar_send.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\menu\\toolbar_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_support.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\menu\\menu_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\menu\\toolbar_myprofile.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\menu\\toolbar_myprofile.xml"
+    }
+]

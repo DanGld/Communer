@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/first_participant_cntnr">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/noprofilepic"
+                android:layout_margin="5dp"
+                android:id="@+id/participant_pic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/participant_name"
+                android:text="Yuval Kendel"
+                android:gravity="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="16sp"
+                android:textColor="@color/SecondaryText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/participant_phone"
+                android:textColor="@color/AppOrange"
+                android:text="0546337845"
+                android:gravity="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

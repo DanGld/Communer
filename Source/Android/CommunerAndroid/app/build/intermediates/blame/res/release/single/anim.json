@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\fab_slide_in_from_right.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.2\\res\\anim\\fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.0\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\exit_to_left.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\anim\\exit_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\slide_out_down.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\anim\\slide_out_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\com_mixpanel_android_fade_out.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\anim\\com_mixpanel_android_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\stay_anim.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\anim\\stay_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\popup_exit.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\anim\\popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\decelerate_cubic.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\anim\\decelerate_cubic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\com_mixpanel_android_fade_in.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\anim\\com_mixpanel_android_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\fab_slide_out_to_left.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.2\\res\\anim\\fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\com_mixpanel_android_slide_down.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\anim\\com_mixpanel_android_slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.0\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\fade_out.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\growing_layout.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\anim\\growing_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\fab_scale_down.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.2\\res\\anim\\fab_scale_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\fade_in.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.0\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.0\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\popup_enter.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\anim\\popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\enter_from_right.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\anim\\enter_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\fab_scale_up.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.2\\res\\anim\\fab_scale_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\push_left_in.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\anim\\push_left_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\slide_in_up.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\anim\\slide_in_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\fab_slide_in_from_left.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.2\\res\\anim\\fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\fab_slide_out_to_right.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.2\\res\\anim\\fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\anim\\alpha_down_anim.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\anim\\alpha_down_anim.xml"
+    }
+]

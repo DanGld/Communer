@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="colorPrimary">#03a9f4</item>
+                <item name="colorPrimaryDark">#03a9f4</item>
+                <item name="android:windowContentOverlay">@null</item>
+                <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+                <item name="android:actionBarDivider">@color/PrimaryColor</item>
+
+                <item name="android:windowContentTransitions">true</item>
+                <item name="android:windowEnterTransition">@transition/enter_right_fade_transition</item>
+                <item name="android:windowReturnTransition">@transition/exit_fade_left_transition</item>
+        </style>
+
+        <style name="Material.Drawable.CircularProgressWhite">
+                <item name="cpd_padding">0dp</item>
+                <item name="cpd_initialAngle">0</item>
+                <item name="cpd_maxSweepAngle">270</item>
+                <item name="cpd_minSweepAngle">1</item>
+                <item name="cpd_strokeSize">4dp</item>
+                <item name="cpd_strokeColor">#FFFFFF</item>
+                <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+                <item name="cpd_reverse">false</item>
+                <item name="cpd_rotateDuration">1000</item>
+                <item name="cpd_transformDuration">600</item>
+                <item name="cpd_keepDuration">200</item>
+                <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+                <item name="pv_progressMode">indeterminate</item>
+                <item name="cpd_inAnimDuration">0</item>
+                <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+        </style>
+</resources>

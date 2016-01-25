@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/widget_questions"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:id="@+id/qa_header"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:id="@+id/question_layout_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question_title"
+                android:text="Can I cook an omelete with the schniztel egg?"
+                android:maxWidth="300dp"
+                android:textColor="@color/PrimaryText"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-black"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <ImageView
+                    android:id="@+id/question_asker_profile_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/profile_sample"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yuval Kendel"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:id="@+id/question_asker_name"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/SecondaryText"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shtuyot bemitz bla bla bla Shtuyot bemitz bla bla bla Shtuyot bemitz bla bla bla"
+                android:id="@+id/question_description"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/SecondaryText"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7 Comments"
+                    android:gravity="left"
+                    android:textColor="@color/AceentColor"
+                    android:id="@+id/question_comment_count"
+                    android:clickable="true"
+                    android:background="@null"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Posted At: Jul 09 At 10:00"
+                    android:layout_gravity="right"
+                    android:id="@+id/question_time"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/DividerColor"
+        android:id="@+id/divider_question"/>
+
+</LinearLayout>

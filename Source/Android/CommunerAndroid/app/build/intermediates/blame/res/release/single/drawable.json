@@ -1,0 +1,702 @@
+[
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\communer_placeholder.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\communer_placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\facilities_bg.jpg",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\facilities_bg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\worker_ratingbar_empty.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\worker_ratingbar_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\splash_beta.jpg",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\splash_beta.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\purple_dot.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\purple_dot.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\orange_star_empty.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\orange_star_empty.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\drop_down_arrow_white.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\drop_down_arrow_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selector.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\drawable\\md_btn_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\facility_left_arrow.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\facility_left_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\phone_number_right_box.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\phone_number_right_box.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\calendar_mincha.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\calendar_mincha.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shabat_exit.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\shabat_exit.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\calendar_activities_bg.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\calendar_activities_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\phone_number_left_box.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\phone_number_left_box.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\background_tab.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\CommunerAndroid.libs\\PagerSlidingTabStrip\\unspecified\\res\\drawable\\background_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\blue_dot.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\blue_dot.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_arrowleft_insets.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_arrowleft_insets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_security.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\icon_security.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_settings_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_settings_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_support.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\icon_support.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\orange_dot.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\orange_dot.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\yoga_sample.jpg",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\yoga_sample.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\profile_sample.jpg",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\profile_sample.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\calendar_events_bg.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\calendar_events_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_arrowleft_states.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_arrowleft_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ripple_bg.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\ripple_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\red_report.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\red_report.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bottom_shadow.9.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\bottom_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\menu_burger_icon.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\menu_burger_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_prayer.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\selector_prayer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\green_dot.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\green_dot.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\rounded_corners.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\rounded_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tab_circle.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\CommunerAndroid.libs\\PagerSlidingTabStrip\\unspecified\\res\\drawable\\tab_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\three_white_dots.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\three_white_dots.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\prayers_candles.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\prayers_candles.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\evning_service_icon.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\evning_service_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\comment_send_orange.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\comment_send_orange.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_prayer.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\icon_prayer.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\splashbg.jpg",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\splashbg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shabat_entry.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\shabat_entry.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\calendar_morning_service.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\calendar_morning_service.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\reddot.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\reddot.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_question_answers.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\icon_question_answers.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_community_conversation.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\icon_community_conversation.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shadow.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_choice_middle_states.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_choice_middle_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\scrim_bottom.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\scrim_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\menu_image.jpg",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\menu_image.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\attending_button.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\attending_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\reverse_shadow_bg.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\reverse_shadow_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\comments_back_arrow.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\comments_back_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_galley.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\selector_galley.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\menu_divider.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\menu_divider.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_item_selected_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\drawable\\md_item_selected_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mornning_service_icon.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\mornning_service_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_calendar.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\selector_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_arrowright_insets.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_arrowright_insets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_arrowright_states.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_arrowright_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ripple_bg_orange.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\ripple_bg_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\noprofilepic.jpg",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\noprofilepic.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_report.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\ic_report.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\white_star.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\white_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_home.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\icon_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_transparent.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\drawable\\md_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_my_profile.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\icon_my_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_share.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\ic_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_guide.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\selector_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_text_answer_border.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_text_answer_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_home.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\selector_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\gray_rounded_bg.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\gray_rounded_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mincha_icon.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\mincha_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selector_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\drawable\\md_btn_selector_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\search_bar.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\search_bar.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_commynity_center.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\icon_commynity_center.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\crop__selectable_background.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.0\\res\\drawable\\crop__selectable_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_cta_button.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_cta_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\calendar_prayers_bg.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\calendar_prayers_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selected_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\drawable\\md_btn_selected_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\apply_to_member.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\apply_to_member.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_selector_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\drawable\\md_selector_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\placeholeder_highres.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\placeholeder_highres.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_settings_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_settings_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\worker_rating_bar_full.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\worker_rating_bar_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\scrim_top.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\scrim_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_messages.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\selector_messages.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\yellow_report.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\yellow_report.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_choice_last_states.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_choice_last_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_item_selected.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\drawable\\md_item_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.1.0\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_cta_button_highlight.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_cta_button_highlight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ripple_bg_red.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\ripple_bg_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_guide.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\icon_guide.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sign_in_button.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\sign_in_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_nocolor_list.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_nocolor_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\edit_pencil.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\edit_pencil.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.6.0\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\calendar_evening.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\calendar_evening.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\htc_banner.jpg",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\htc_banner.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_community_profile.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\icon_community_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_checkmark_states.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_checkmark_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\orange_star_full.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\orange_star_full.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\up_arrow.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\up_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\connenct_as_guest.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\connenct_as_guest.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable\\common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\map_green_report.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\map_green_report.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ripple_bg_green.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\ripple_bg_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shadow_bg.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\shadow_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\add_to_calendar_button.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\add_to_calendar_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_play_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_selector.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\drawable\\md_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\placeholeder_lowres.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\placeholeder_lowres.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\left_arrow.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\left_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\three_dots.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\three_dots.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\prayers_stars.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\prayers_stars.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\magen_david.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\magen_david.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\google_login.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\google_login.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\crop__texture.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.0\\res\\drawable\\crop__texture.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\view_report_button.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\view_report_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\map_yellow_report.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\map_yellow_report.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable\\common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\orange_phone.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\orange_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\right_arrow.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\right_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\share_button.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\share_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\report_button.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\report_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\worker_ratingbar_fullfilled.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\worker_ratingbar_fullfilled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\map_red_report.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\map_red_report.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selected.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.3\\res\\drawable\\md_btn_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\facebook_login.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\facebook_login.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_action_calendar_icon.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\CommunerAndroid.libs\\PagerSlidingTabStrip\\unspecified\\res\\drawable\\ic_action_calendar_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\send_btn.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\send_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\camera_icon.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\camera_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\com_mixpanel_android_choice_first_states.xml",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.6.4\\res\\drawable\\com_mixpanel_android_choice_first_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\build\\intermediates\\res\\merged\\release\\drawable\\green_report.png",
+        "source": "C:\\Users\\Yuval\\AndroidStudioProjects\\CommunerAndroid\\app\\src\\main\\res\\drawable\\green_report.png"
+    }
+]

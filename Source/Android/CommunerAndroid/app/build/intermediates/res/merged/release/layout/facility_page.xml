@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_classic"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/facility_scrollview">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The ancient synagouge"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:id="@+id/facility_title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae tristique libero, non sodales risus. Pellentesque vitae est tincidunt turpis laoreet posuere. Maecenas vulputate finibus egestas. "
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/facility_content"/>
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:scrollbars="none"
+                android:id="@+id/facility_page_images_horizontal_scroll">
+
+                <LinearLayout
+                    android:id="@+id/facility_images_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" />
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Images Available"
+                android:textSize="18sp"
+                android:textColor="@color/SecondaryText"
+                android:id="@+id/facility_page_no_images"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:visibility="gone"/>
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:background="@color/white"
+                    android:layout_marginTop="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:padding="15dp"
+                        android:id="@+id/hsv_left_btn_container">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/left_arrow"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="August"
+                        android:layout_centerInParent="true"
+                        android:textSize="18sp"
+                        android:id="@+id/facility_calendar_month"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:padding="15dp"
+                        android:id="@+id/hsv_right_btn_container">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/right_arrow"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:id="@+id/facility_horizontal_scroll">
+
+                    <LinearLayout
+                        android:id="@+id/facility_calendar_dates_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        />
+                </HorizontalScrollView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/DividerColor"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/facility_events_list"
+                    android:dividerHeight="0px"
+                    android:divider="@null"
+                    android:background="@color/white">
+                </ListView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/DividerColor"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contacts Details"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/facility_contact_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"/>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Haim Firestone"
+                        android:id="@+id/facility_incharge_name"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/PrimaryText"
+                        android:ellipsize="end"
+                        android:maxLines="2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New York City"
+                        android:id="@+id/facility_incharge_location"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/PrimaryText"
+                        android:layout_marginTop="2dp"
+                        android:ellipsize="end"
+                        android:maxLines="2"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical|right"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+972 54 6337845"
+                        android:id="@+id/facility_incharge_phone"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/AppOrange"/>
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:id="@+id/facility_incharge_phone_btn"
+                        android:src="@drawable/orange_phone"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yuval@moveo.co.il"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:id="@+id/facility_incharge_email"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

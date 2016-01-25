@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_classic"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:padding="15dp"
+                    android:id="@+id/hsv_left_btn_container">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/left_arrow" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="August"
+                    android:layout_centerInParent="true"
+                    android:textSize="18sp"
+                    android:id="@+id/prayers_month_text"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:padding="15dp"
+                    android:id="@+id/hsv_right_btn_container">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/right_arrow"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:id="@+id/prayers_horizontal_scroll">
+
+                <LinearLayout
+                    android:id="@+id/calendar_dates_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    />
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/linearMorningLayout">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/mornning_service_icon"
+                            android:background="@null"
+                            android:adjustViewBounds="true"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Shacharit"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/AceentColor"
+                            android:layout_gravity="center_vertical"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="08:30"
+                            android:layout_marginLeft="25dp"
+                            android:id="@+id/morning_service"
+                            android:maxLines="1"
+                            android:ellipsize="end" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/linearMinchaLayout">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/mincha_icon"
+                            android:background="@null"
+                            android:adjustViewBounds="true"
+                            android:layout_marginLeft="15dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mincha"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/AppOrange"
+                            android:layout_gravity="center_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="08:30"
+                            android:layout_marginLeft="25dp"
+                            android:id="@+id/mincha_service"
+                            android:maxLines="1"
+                            android:ellipsize="end" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/linearEveningLayout">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/evning_service_icon"
+                            android:background="@null"
+                            android:adjustViewBounds="true"
+                            android:layout_marginLeft="27dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Maariv"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/PrimaryColor"
+                            android:layout_gravity="center_vertical" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="08:30"
+                            android:layout_marginLeft="25dp"
+                            android:id="@+id/evening_service"
+                            android:maxLines="1"
+                            android:ellipsize="end"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:id="@+id/holiday_container">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parashat Chukat"
+                    android:textColor="@color/AppOrange"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/prayers_time_parasha_name"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/additions_container">
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="0.3dp"
+                    android:background="@color/DividerColor"
+                    android:layout_marginTop="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="08:30"
+                            android:textSize="16sp"
+                            android:id="@+id/holiday_start_time"/>
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/prayers_candles"
+                            android:scaleType="fitXY"
+                            android:layout_marginTop="5dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="11:30"
+                            android:textSize="16sp"
+                            android:id="@+id/holiday_end_time"/>
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/prayers_stars"
+                            android:scaleType="fitXY"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/prayers_times_list"
+                    android:divider="@drawable/listdivider"
+                    android:dividerHeight="2px">
+
+                </ListView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

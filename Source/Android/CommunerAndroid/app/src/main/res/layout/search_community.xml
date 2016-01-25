@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_classic"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/search_bar"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:hint="Search by #hashtag or name"
+        android:id="@+id/search_community_input"
+        android:textSize="14sp"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:layout_below="@+id/toolbar"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/search_community_pb"
+        android:visibility="gone"
+        android:layout_below="@+id/search_community_input"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:id="@+id/search_community_bottom_cntnr"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_divider"
+            android:scaleType="fitXY"
+            android:id="@+id/community_search_divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/chosen_community_left_cntnr">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/noprofilepic"
+                            android:id="@+id/chosen_community_pic"
+                            android:scaleType="fitXY"
+                            android:background="@null"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EnglandEnglandEnglandEnglandEnglandEnglandEnglandEnglandEnglandEnglandEnglandEnglandEnglandEnglandEngland"
+                            android:id="@+id/chosen_community_name"
+                            android:textColor="@color/PrimaryText"
+                            android:layout_centerHorizontal="true"
+                            android:fontFamily="sans-serif"
+                            android:textSize="16sp"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:layout_toRightOf="@+id/chosen_community_pic"
+                            android:layout_marginLeft="10dp"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="City"
+                        android:textColor="@color/PrimaryText"
+                        android:fontFamily="sans-serif"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/chosen_community_city"
+                        android:maxLines="3"
+                        android:ellipsize="end"
+                        android:layout_toRightOf="@+id/chosen_community_pic"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"/>
+
+<!--                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Country"
+                        android:id="@+id/chosen_community_country"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/PrimaryText"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:layout_toRightOf="@+id/chosen_community_pic"
+                        android:layout_marginLeft="10dp"/>-->
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:scaleType="fitXY"
+                        android:background="@null"
+                        android:id="@+id/connect_as_guest_btn"
+                        android:src="@drawable/connenct_as_guest"
+                        android:layout_alignParentBottom="true"
+                        android:minHeight="40dp"/>
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:visibility="invisible"
+                        android:id="@+id/as_a_guest_pb"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Irgun Gag"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/AppOrange"
+                    android:textSize="16sp"
+                    android:id="@+id/chosen_community_first_def"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Synagogue"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/AppOrange"
+                    android:textSize="16sp"
+                    android:id="@+id/chosen_community_second_def"
+                    android:layout_below="@+id/chosen_community_first_def" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:scaleType="fitXY"
+                    android:background="@null"
+                    android:id="@+id/apply_as_member_btn"
+                    android:src="@drawable/apply_to_member"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_alignParentBottom="true"
+                    android:minHeight="40dp"/>
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="invisible"
+                    android:id="@+id/apply_member_pb"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/search_communities_list"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/search_community_pb"
+        android:layout_above="@+id/search_community_bottom_cntnr"
+        android:background="@color/white">
+
+    </ListView>
+
+</RelativeLayout>

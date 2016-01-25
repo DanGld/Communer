@@ -1,0 +1,1 @@
+include ':libs:PagerSlidingTabStrip', ':libs:PhotoView', ':app', ':libs'

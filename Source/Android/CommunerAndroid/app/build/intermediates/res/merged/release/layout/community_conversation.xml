@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorContainer"
+    android:background="@color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_classic"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/community_conversation_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="45dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:src="@drawable/edit_pencil"
+        app:layout_anchor="@id/coordinatorContainer"
+        app:layout_anchorGravity="bottom|right|end"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:backgroundTint="@color/AppOrange"
+        android:scaleType="fitXY"/>
+
+</android.support.design.widget.CoordinatorLayout>

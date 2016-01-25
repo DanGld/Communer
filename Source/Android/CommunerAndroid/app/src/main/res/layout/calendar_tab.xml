@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorContainer">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/calendar_tab_container"
+        android:background="@color/white"
+        android:paddingTop="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/top_calendar_container">
+
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:mcv_showOtherDates="defaults"
+                app:mcv_selectionColor="@color/AceentColor"
+                app:mcv_tileSize="35dp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weekly_calendar_cntnr">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:background="@color/white"
+                    android:id="@+id/calendar_month_data">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:padding="15dp"
+                        android:id="@+id/hsv_left_btn_container"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/left_arrow"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="August"
+                        android:layout_centerInParent="true"
+                        android:textSize="18sp"
+                        android:id="@+id/prayers_month_text"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:padding="15dp"
+                        android:id="@+id/hsv_right_btn_container"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:background="@null"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/right_arrow"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:layout_below="@+id/calendar_month_data"
+                    android:id="@+id/prayers_horizontal_scroll">
+
+                    <LinearLayout
+                        android:id="@+id/calendar_dates_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        />
+                </HorizontalScrollView>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:id="@+id/calendar_month_btn_container"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/down_arrow"
+                    android:background="@null"
+                    android:id="@+id/down_arrow"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/DividerColor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No events/activities"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/SecondaryText"
+            android:visibility="gone"
+            android:id="@+id/no_events_text"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/day_events_list"
+            android:dividerHeight="0px"
+            android:divider="@null"
+            android:background="@color/white">
+
+        </ListView>
+    </LinearLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        fab:menu_fab_size="normal"
+        app:menu_icon="@drawable/ic_more_vert_white_24dp"
+        app:layout_anchor="@id/calendar_tab_container"
+        app:layout_anchorGravity="bottom|right|end">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_menu_prayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/action_floating_prayer"
+            app:fab_colorNormal="@color/AppOrange"
+            app:fab_colorPressed="@color/AppOrange"
+            app:fab_colorRipple="#99FFFFFF"
+            app:fab_showShadow="true"
+            app:fab_shadowColor="#66000000"
+            app:fab_shadowRadius="4dp"
+            app:fab_size="mini"
+            app:fab_label="Prayers" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_menu_activities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/action_floating_important"
+            app:fab_colorNormal="@color/BlueDot"
+            app:fab_colorPressed="@color/BlueDot"
+            app:fab_colorRipple="#99FFFFFF"
+            app:fab_showShadow="true"
+            app:fab_shadowColor="#66000000"
+            app:fab_shadowRadius="4dp"
+            app:fab_size="mini"
+            app:fab_label="Recurring Activities" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_menu_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/action_floating_prayer_events"
+            app:fab_colorNormal="@color/app_green"
+            app:fab_colorPressed="@color/app_green"
+            app:fab_colorRipple="#99FFFFFF"
+            app:fab_showShadow="true"
+            app:fab_shadowColor="#66000000"
+            app:fab_shadowRadius="4dp"
+            app:fab_size="mini"
+            app:fab_label="One Time Events" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+<!--    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:src="@drawable/three_white_dots"
+        app:layout_anchor="@id/calendar_tab_container"
+        app:layout_anchorGravity="bottom|right|end"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:backgroundTint="@color/AppOrange"
+        android:layout_margin="20dp"/>-->
+
+</android.support.design.widget.CoordinatorLayout>
