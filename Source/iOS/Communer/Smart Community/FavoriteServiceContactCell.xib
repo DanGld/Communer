@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+            <string>Roboto-Regular</string>
+            <string>Roboto-Regular</string>
+            <string>Roboto-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavoriteServiceContactCell" rowHeight="69" id="KGk-i7-Jjw" userLabel="FavoriteServiceContactCell" customClass="FavoriteServiceContactCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o7D-mx-1Le">
+                        <rect key="frame" x="6" y="8" width="51" height="51"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beni zeidman" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0u-zV-XdU">
+                        <rect key="frame" x="67" y="10" width="104" height="21"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+973-43-5839723" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="NkQ-Bo-PW4">
+                        <rect key="frame" x="168" y="10" width="124" height="21"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4.6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1G-Ja-6H7">
+                        <rect key="frame" x="169" y="37" width="34" height="21"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kfar saba" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWn-gG-8DA">
+                        <rect key="frame" x="67" y="37" width="104" height="21"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <color key="textColor" red="0.74901960784313726" green="0.9137254901960784" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OrA-qJ-NT6">
+                        <rect key="frame" x="294" y="5" width="18" height="26"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white_star_empty.png" translatesAutoresizingMaskIntoConstraints="NO" id="El0-57-Pt8">
+                        <rect key="frame" x="195" y="41" width="20" height="13"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white_star_empty.png" translatesAutoresizingMaskIntoConstraints="NO" id="m8J-TP-La1">
+                        <rect key="frame" x="210" y="41" width="20" height="13"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white_star_empty.png" translatesAutoresizingMaskIntoConstraints="NO" id="9ZN-XS-SxI">
+                        <rect key="frame" x="225" y="41" width="20" height="13"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white_star_empty.png" translatesAutoresizingMaskIntoConstraints="NO" id="y7m-U4-zmr">
+                        <rect key="frame" x="240" y="41" width="20" height="13"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white_star_empty.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mfe-vZ-AxK">
+                        <rect key="frame" x="255" y="41" width="20" height="13"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cl1-ZO-6TY">
+                        <rect key="frame" x="0.0" y="68" width="320" height="2"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.4941176471" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.47843137254901963" green="0.72156862745098038" blue="0.22352941176470589" alpha="1" colorSpace="calibratedRGB"/>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contactAddress" destination="nWn-gG-8DA" id="6xG-Cj-M3K"/>
+                <outlet property="contactImage" destination="o7D-mx-1Le" id="Cvs-Pk-JKj"/>
+                <outlet property="contactName" destination="T0u-zV-XdU" id="dXy-hi-i7h"/>
+                <outlet property="contactPhoneNumber" destination="NkQ-Bo-PW4" id="EyT-Xm-X5O"/>
+                <outlet property="contactRating" destination="P1G-Ja-6H7" id="gXn-ie-HYW"/>
+                <outlet property="star1" destination="El0-57-Pt8" id="EZS-dQ-jP0"/>
+                <outlet property="star2" destination="m8J-TP-La1" id="gD3-rh-Q76"/>
+                <outlet property="star3" destination="9ZN-XS-SxI" id="KFG-UU-7GN"/>
+                <outlet property="star4" destination="y7m-U4-zmr" id="CYh-uW-aWs"/>
+                <outlet property="star5" destination="Mfe-vZ-AxK" id="L6l-Sh-Apg"/>
+            </connections>
+            <point key="canvasLocation" x="199" y="527.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="white_star_empty.png" width="41" height="40"/>
+    </resources>
+</document>

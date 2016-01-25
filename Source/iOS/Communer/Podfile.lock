@@ -1,0 +1,58 @@
+PODS:
+  - Crashlytics (3.5.0):
+    - Fabric (~> 1.6.0)
+  - Fabric (1.6.2)
+  - Google/Core (1.0.7):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - Google/SignIn (1.0.7):
+    - Google/Core
+    - GoogleSignIn (~> 2.0)
+  - GoogleAppUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleAuthUtilities (1.0.1):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleMaps (1.11.1)
+  - GoogleNetworkingUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSignIn (2.2.0):
+    - GoogleAppUtilities (~> 1)
+    - GoogleAuthUtilities (~> 1)
+    - GoogleNetworkingUtilities (~> 1)
+    - GoogleUtilities (~> 1)
+  - GoogleSymbolUtilities (1.0.0)
+  - GoogleUtilities (1.0.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - JTCalendar (2.1.1)
+  - libPusher (1.6.1):
+    - libPusher/Core (= 1.6.1)
+  - libPusher/Core (1.6.1):
+    - SocketRocket (= 0.4.1)
+  - SocketRocket (0.4.1)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - Google/SignIn
+  - GoogleMaps
+  - JTCalendar (~> 2.0)
+  - libPusher (~> 1.6.1)
+
+SPEC CHECKSUMS:
+  Crashlytics: fabfd45d0e8b8dc936c682b97e302b9a49a1c827
+  Fabric: e8296d4a1abb3c5eed770cc86b311c862f51d340
+  Google: 875f5a8ade86dd02e36586e4a54814843938c7f6
+  GoogleAppUtilities: c01c6a5671e9da8b9d690fdaec5959d6c2aac699
+  GoogleAuthUtilities: 049ffd3a297cdffd271451b82fd4e75304f15ef3
+  GoogleMaps: c947160008f414c66707a5ea60f35e92055c7670
+  GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
+  GoogleSignIn: c45d8d1a873784a3283b4f47f331dc06d8a727b6
+  GoogleSymbolUtilities: a7b0feed1fe667c8d5e647177938d0ecd62d6948
+  GoogleUtilities: e3475cd4d45134221d2f3f3626095a1c49b62041
+  JTCalendar: 1b4d7b77c4f994694afdc29d8946ae0e1198a636
+  libPusher: 5ea58aeb83fa4ac1f5d8ef8543b1def6ace997b8
+  SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
+
+COCOAPODS: 0.39.0

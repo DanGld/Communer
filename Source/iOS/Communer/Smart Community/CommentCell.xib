@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+            <string>Roboto-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="CommentCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="117" id="KGk-i7-Jjw" customClass="CommentCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="117"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="116"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4aN-lk-URe">
+                        <rect key="frame" x="8" y="8" width="45" height="45"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guy Bilbi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7B-Bc-QzN">
+                        <rect key="frame" x="60" y="15" width="70" height="21"/>
+                        <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A reliable &quot;mohel&quot;, very nice person and with a good service." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3r-m9-NIH">
+                        <rect key="frame" x="60" y="58" width="244" height="50"/>
+                        <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sr4-Dc-Fc7">
+                        <rect key="frame" x="58" y="34" width="18" height="12"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="7aH-Qv-Qvo">
+                        <rect key="frame" x="73" y="34" width="18" height="12"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="FH1-uF-QU9">
+                        <rect key="frame" x="88" y="34" width="18" height="12"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="mhL-Fq-xem">
+                        <rect key="frame" x="103" y="34" width="18" height="12"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="1PR-uE-yTq">
+                        <rect key="frame" x="118" y="34" width="18" height="12"/>
+                    </imageView>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentImage" destination="4aN-lk-URe" id="i0g-WP-v85"/>
+                <outlet property="commentName" destination="a7B-Bc-QzN" id="iwR-IB-IRk"/>
+                <outlet property="contentLabel" destination="J3r-m9-NIH" id="ePb-tv-dvF"/>
+                <outlet property="star1" destination="Sr4-Dc-Fc7" id="Ys4-Bd-MnH"/>
+                <outlet property="star2" destination="7aH-Qv-Qvo" id="VE1-Zl-yL5"/>
+                <outlet property="star3" destination="FH1-uF-QU9" id="eP4-1a-7hf"/>
+                <outlet property="star4" destination="mhL-Fq-xem" id="jSI-a8-69c"/>
+                <outlet property="star5" destination="1PR-uE-yTq" id="wYO-MK-cYS"/>
+            </connections>
+            <point key="canvasLocation" x="334" y="165.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gray_star.png" width="47" height="45"/>
+    </resources>
+</document>

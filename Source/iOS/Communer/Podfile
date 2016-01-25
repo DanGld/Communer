@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.1'
+pod 'JTCalendar', '~> 2.0'
+pod 'Google/SignIn'
+pod 'libPusher', '~> 1.6.1'
+pod 'GoogleMaps'
+pod 'Fabric'
+pod 'Crashlytics'
