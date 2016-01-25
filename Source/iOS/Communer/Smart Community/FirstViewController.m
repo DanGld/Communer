@@ -9,6 +9,7 @@
 #import "FirstViewController.h"
 #import "SignInViewController.h"
 #import "Networking.h"
+#import "TutorialViewController.h"
 
 @interface FirstViewController ()
 
@@ -34,8 +35,10 @@
     [self presentViewController:container animated:YES completion:nil];
     }
     else {
-        SignInViewController* controller = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"SignInViewController"];
+        TutorialViewController *controller = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"TutorialVCIdentifier"];
         [self.navigationController pushViewController:controller animated:NO];
+//        SignInViewController* controller = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"SignInViewController"];
+//        [self.navigationController pushViewController:controller animated:NO];
     }
 }
 
