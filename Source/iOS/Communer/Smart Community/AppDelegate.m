@@ -45,7 +45,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [Fabric with:@[[Crashlytics class]]];
-
+    
+    self.countryName = @"";
+    self.countryCode = @"";
     //-----------PUSHWOOSH PART-----------
     // set custom delegate for push handling, in our case - view controller
     PushNotificationManager * pushManager = [PushNotificationManager pushManager];

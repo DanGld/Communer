@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KNCirclePercentView.h"
 
 @interface SignInViewController : UIViewController<UITextFieldDelegate>
 
@@ -15,6 +16,16 @@
 @property (strong, nonatomic) IBOutlet UILabel *toSignLabel;
 @property (strong, nonatomic) IBOutlet UIView *signView;
 
-- (IBAction)signInButton;
+@property (strong, nonatomic) IBOutlet UIView *verifyView;
+@property (strong, nonatomic) IBOutlet UIButton *signupButton;
+@property (strong, nonatomic) IBOutlet UILabel *verifyDetailLabel;
+@property (strong, nonatomic) IBOutlet KNCirclePercentView *verifyTimerBgView;
+@property (strong, nonatomic) IBOutlet KNCirclePercentView *verifyTimerView;
 
+@property (strong, nonatomic) IBOutlet UIView *codeView;
+@property (strong, nonatomic) IBOutlet UIImageView *varcodeContainer;
+@property (strong, nonatomic) IBOutlet UITextField *varcodeTextfield;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *loader;
+
+- (IBAction)onSignUpAction;
 @end

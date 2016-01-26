@@ -23,6 +23,7 @@
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) LocationModel * currentLocation;
 @property (strong, nonatomic) NSString* countryCode;
+@property (strong, nonatomic) NSString* countryName;
 
 
 @end

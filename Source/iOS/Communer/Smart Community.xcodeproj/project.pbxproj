@@ -62,6 +62,12 @@
 		8F8069E21C566A1C00CB83D3 /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F8069D01C566A1C00CB83D3 /* Lato-SemiboldItalic.ttf */; };
 		8F8069E31C566A1C00CB83D3 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F8069D11C566A1C00CB83D3 /* Lato-Thin.ttf */; };
 		8F8069E41C566A1C00CB83D3 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F8069D21C566A1C00CB83D3 /* Lato-ThinItalic.ttf */; };
+		8FD699301C57AE2C00066F89 /* signin_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FD6992F1C57AE2C00066F89 /* signin_bg.png */; };
+		8FD699321C57B33C00066F89 /* phone_number_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FD699311C57B33C00066F89 /* phone_number_bg@2x.png */; };
+		8FD699341C57C2FC00066F89 /* sign_up_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FD699331C57C2FC00066F89 /* sign_up_button@2x.png */; };
+		8FD699361C57C88600066F89 /* verify_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FD699351C57C88600066F89 /* verify_button@2x.png */; };
+		8FD6993E1C57CFC400066F89 /* KNCirclePercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6993B1C57CFC400066F89 /* KNCirclePercentView.m */; };
+		8FD6993F1C57CFC400066F89 /* KNPercentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD6993D1C57CFC400066F89 /* KNPercentLabel.m */; };
 		96527A301B81EA5200B3EEA7 /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96527A2B1B81EA5200B3EEA7 /* MFSideMenuContainerViewController.m */; };
 		96527A311B81EA5200B3EEA7 /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 96527A2D1B81EA5200B3EEA7 /* MFSideMenuShadow.m */; };
 		96527A321B81EA5200B3EEA7 /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96527A2F1B81EA5200B3EEA7 /* UIViewController+MFSideMenuAdditions.m */; };
@@ -498,6 +504,14 @@
 		8F8069D01C566A1C00CB83D3 /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 		8F8069D11C566A1C00CB83D3 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		8F8069D21C566A1C00CB83D3 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		8FD6992F1C57AE2C00066F89 /* signin_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signin_bg.png; sourceTree = "<group>"; };
+		8FD699311C57B33C00066F89 /* phone_number_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_number_bg@2x.png"; sourceTree = "<group>"; };
+		8FD699331C57C2FC00066F89 /* sign_up_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign_up_button@2x.png"; sourceTree = "<group>"; };
+		8FD699351C57C88600066F89 /* verify_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "verify_button@2x.png"; sourceTree = "<group>"; };
+		8FD6993A1C57CFC400066F89 /* KNCirclePercentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNCirclePercentView.h; path = Libraries/KNCirclePercentView/KNCirclePercentView.h; sourceTree = "<group>"; };
+		8FD6993B1C57CFC400066F89 /* KNCirclePercentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNCirclePercentView.m; path = Libraries/KNCirclePercentView/KNCirclePercentView.m; sourceTree = "<group>"; };
+		8FD6993C1C57CFC400066F89 /* KNPercentLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNPercentLabel.h; path = Libraries/KNCirclePercentView/KNPercentLabel.h; sourceTree = "<group>"; };
+		8FD6993D1C57CFC400066F89 /* KNPercentLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNPercentLabel.m; path = Libraries/KNCirclePercentView/KNPercentLabel.m; sourceTree = "<group>"; };
 		96527A291B81EA5200B3EEA7 /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
 		96527A2A1B81EA5200B3EEA7 /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
 		96527A2B1B81EA5200B3EEA7 /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
@@ -1035,6 +1049,7 @@
 		8F8069AB1C565E1D00CB83D3 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				8FD699391C57CF8F00066F89 /* KNCirclePercentView */,
 				8F8069AC1C565E2500CB83D3 /* ICETutorial */,
 			);
 			name = Libraries;
@@ -1051,6 +1066,17 @@
 				8F8069B21C565E3E00CB83D3 /* ICETutorialStyle.m */,
 			);
 			name = ICETutorial;
+			sourceTree = "<group>";
+		};
+		8FD699391C57CF8F00066F89 /* KNCirclePercentView */ = {
+			isa = PBXGroup;
+			children = (
+				8FD6993A1C57CFC400066F89 /* KNCirclePercentView.h */,
+				8FD6993B1C57CFC400066F89 /* KNCirclePercentView.m */,
+				8FD6993C1C57CFC400066F89 /* KNPercentLabel.h */,
+				8FD6993D1C57CFC400066F89 /* KNPercentLabel.m */,
+			);
+			name = KNCirclePercentView;
 			sourceTree = "<group>";
 		};
 		96527A281B81EA5200B3EEA7 /* MFSideMenu */ = {
@@ -1356,6 +1382,10 @@
 		E5D8AE9E1B60D814005ABCFF /* pngs */ = {
 			isa = PBXGroup;
 			children = (
+				8FD699351C57C88600066F89 /* verify_button@2x.png */,
+				8FD699331C57C2FC00066F89 /* sign_up_button@2x.png */,
+				8FD699311C57B33C00066F89 /* phone_number_bg@2x.png */,
+				8FD6992F1C57AE2C00066F89 /* signin_bg.png */,
 				8F8069B91C56651100CB83D3 /* tutorial_01@2x.png */,
 				8F8069BA1C56651100CB83D3 /* tutorial_02@2x.png */,
 				8F8069BB1C56651100CB83D3 /* tutorial_03@2x.png */,
@@ -1970,7 +2000,6 @@
 				TargetAttributes = {
 					E5D9EA991B5BA8AD009D6247 = {
 						CreatedOnToolsVersion = 6.3.2;
-						DevelopmentTeam = 72Z73DFCD9;
 					};
 					E5D9EAB21B5BA8AD009D6247 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -2004,6 +2033,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD699301C57AE2C00066F89 /* signin_bg.png in Resources */,
 				E59E7BBF1C302B9E0045F5E0 /* filterButton@3x.png in Resources */,
 				617073E51BAEEF050054F289 /* prayers_bg.png in Resources */,
 				E59E7BCA1C30379E0045F5E0 /* events_disabled@3x.png in Resources */,
@@ -2077,6 +2107,7 @@
 				8F8069E11C566A1C00CB83D3 /* Lato-Semibold.ttf in Resources */,
 				8F8069DC1C566A1C00CB83D3 /* Lato-Light.ttf in Resources */,
 				E586D2DC1C11B80800BF12F3 /* Default-568h@2x.png in Resources */,
+				8FD699341C57C2FC00066F89 /* sign_up_button@2x.png in Resources */,
 				E5DE3F7A1BC403BA000FC363 /* home_report_button.png in Resources */,
 				E56BFDB61B8F13B5000DCD90 /* orange_star_empty.png in Resources */,
 				E5D8AF5C1B60D917005ABCFF /* left_arrow.png in Resources */,
@@ -2092,6 +2123,7 @@
 				E5D8AF8F1B60D917005ABCFF /* phone_number_left_box.png in Resources */,
 				E5D8AF901B60D917005ABCFF /* phone_number_right_box.png in Resources */,
 				61C5B67A1BE7776000E73062 /* starts.png in Resources */,
+				8FD699321C57B33C00066F89 /* phone_number_bg@2x.png in Resources */,
 				617073DF1BAED5C20054F289 /* magen_david.png in Resources */,
 				E59E5E161BCA9BFD00039703 /* top_shadow_menu.png.png in Resources */,
 				8F8069D71C566A1C00CB83D3 /* Lato-Hairline.ttf in Resources */,
@@ -2225,6 +2257,7 @@
 				E5D8AF7D1B60D917005ABCFF /* security.png in Resources */,
 				8F8069DA1C566A1C00CB83D3 /* Lato-HeavyItalic.ttf in Resources */,
 				E53F74BF1B9881D10056549C /* guide_icon_opacity@2x.png in Resources */,
+				8FD699361C57C88600066F89 /* verify_button@2x.png in Resources */,
 				E59E7BC91C30379E0045F5E0 /* activities_disabled@3x.png in Resources */,
 				E5DBB2B21B67E2C40033C7E1 /* nextServicesCell.xib in Resources */,
 				E53F749F1B95BAA30056549C /* CommunityPickerCell.xib in Resources */,
@@ -2373,6 +2406,7 @@
 				E5C96C021B8B0D0500EA3DCB /* dailyEventsModel.m in Sources */,
 				E53F74A81B961FC20056549C /* FirstViewController.m in Sources */,
 				E5D8B28B1B6622B1005ABCFF /* myProfileViewController.m in Sources */,
+				8FD6993F1C57CFC400066F89 /* KNPercentLabel.m in Sources */,
 				96527A321B81EA5200B3EEA7 /* UIViewController+MFSideMenuAdditions.m in Sources */,
 				E59E7BA81C301D5E0045F5E0 /* MLPAutoCompleteTextField.m in Sources */,
 				E5DBB2A31B67DCE00033C7E1 /* HomeViewController.m in Sources */,
@@ -2410,6 +2444,7 @@
 				E54119131B738DDC00B74C2A /* AFURLSessionManager.m in Sources */,
 				E54119151B738DDC00B74C2A /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				E53F74BD1B974D2D0056549C /* SecurityViewController.m in Sources */,
+				8FD6993E1C57CFC400066F89 /* KNCirclePercentView.m in Sources */,
 				E5DBB29C1B67C0A70033C7E1 /* UITabbarControllerViewController.m in Sources */,
 				E5F4267B1B94CD7D00E4A467 /* FacilitiesViewController.m in Sources */,
 				E51484971C3D38D50078ECEE /* AllMembersController.m in Sources */,
@@ -2520,8 +2555,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Solid Peak LTD (7KRA53DR55)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Solid Peak LTD (7KRA53DR55)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2544,7 +2579,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "0ce91040-65ec-4508-b189-25746d5bd944";
+				PROVISIONING_PROFILE = "a36d613a-de06-4fa3-8f8f-eeffb4a12bf2";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 arm64";
 			};
@@ -2567,8 +2602,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Solid Peak LTD (7KRA53DR55)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Solid Peak LTD (7KRA53DR55)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -2583,7 +2618,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "0ce91040-65ec-4508-b189-25746d5bd944";
+				PROVISIONING_PROFILE = "a36d613a-de06-4fa3-8f8f-eeffb4a12bf2";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 arm64";
@@ -2595,8 +2630,8 @@
 			baseConfigurationReference = A73C5172FC451294C7293146 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Solid Peak LTD (7KRA53DR55)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Solid Peak LTD (7KRA53DR55)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2616,7 +2651,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moveo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0ce91040-65ec-4508-b189-25746d5bd944";
+				PROVISIONING_PROFILE = "a36d613a-de06-4fa3-8f8f-eeffb4a12bf2";
 			};
 			name = Debug;
 		};
@@ -2625,8 +2660,8 @@
 			baseConfigurationReference = 5944D805759F894ACFFB5888 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Solid Peak LTD (7KRA53DR55)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Solid Peak LTD (7KRA53DR55)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2646,7 +2681,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moveo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0ce91040-65ec-4508-b189-25746d5bd944";
+				PROVISIONING_PROFILE = "a36d613a-de06-4fa3-8f8f-eeffb4a12bf2";
 			};
 			name = Release;
 		};

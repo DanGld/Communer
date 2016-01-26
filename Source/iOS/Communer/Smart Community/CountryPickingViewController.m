@@ -342,6 +342,7 @@ NSDictionary *countriesDic;
     countryCell* cell = (countryCell*)[tableView cellForRowAtIndexPath:indexPath];
     AppDelegate* delegate = [UIApplication sharedApplication].delegate;
     delegate.countryCode = cell.countryCode.text;
+    delegate.countryName = cell.countryName.text;
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
